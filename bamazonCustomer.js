@@ -69,7 +69,7 @@ function start() {
                         connection.query(
                             "UPDATE products SET ? WHERE ?",
                             [{
-                                    stock_quantity: chosenAnswer.stock_quantity - answer.numberDesired
+                                    stock_quantity: parseInt(chosenAnswer.stock_quantity) - parseInt(answer.numberDesired)
                                 },
                                 {
                                     item_id: chosenAnswer.item_id
