@@ -157,7 +157,7 @@ function AddProduct() {
             connection.query("SELECT count(distinct item_id) AS numProducts FROM products", function (err, results) {
                 if (err) throw err;
                 var itemID = results[0].numProducts + 1;
-                connection.query("INSERT INTO products SELECT ? as item_id, ? AS product_name, ? AS department_name, ? AS price, ? AS stockquantity", [itemID, answer.product_name, answer.department_name, parseInt(answer.price), parseInt(answer.stock_quantity)], function (err) {
+                connection.query("INSERT INTO products SELECT ? as item_id, ? AS product_name, ? AS department_name, ? AS price, ? AS stockquantity", [itemID, answer.product_name, answer.department_name, parseFloat(answer.price), parseInt(answer.stock_quantity)], function (err) {
                     if (err) throw err;
                     console.log("Successfully added " + answer.product_name + " to bamazon");
                     console.log("Jumping back to main menu \n");
