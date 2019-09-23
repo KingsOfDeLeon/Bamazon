@@ -16,15 +16,19 @@ If the user want s more than what's available, Bamazon will apologize for the in
 
 <img src = "images/customerPage3.png" width = "600" >
 
+
+================================================================================================================================
 <h2>Manager Page<h2>
 <hr>
   
 There is also a manager view to bamazon. On load up, the user (the bamazon manager) is prompted with a menu of four items.
  
 <strong>View Products For Sale</strong> will display the current inventory. Similar to the customer page
+
 <img src = "images/managerPage1.png" width = "600" >
  
 <strong>View Low Inventory</strong> will display items with less then 5 units in inventory.
+
 <img src = "images/managerPage2.png" width = "600" >
   
 <strong>Add To Inventory</strong> Will allow the manager to specify what item they'd like to add to the storewares on top of how many they'd like to add.
@@ -33,4 +37,5 @@ There is also a manager view to bamazon. On load up, the user (the bamazon manag
 
 
 <strong>Add New Product</strong> Will allow the manager to add a completely new item to the store wares. The manager needs to specify what the item is, which department it belongs in, how much each unit is, and how many to initially add.
+
 <img src = "images/managerPage4.png" width = "600" >
