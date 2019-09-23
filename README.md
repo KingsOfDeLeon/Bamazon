@@ -17,7 +17,7 @@ If the user want s more than what's available, Bamazon will apologize for the in
 <img src = "images/customerPage3.png" width = "600" >
 
 
-=======================================================================================================
+======================================================================================================
 <h2>Manager Page<h2>
 <hr>
   
